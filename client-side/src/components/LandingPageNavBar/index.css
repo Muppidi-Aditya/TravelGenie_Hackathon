@@ -1,0 +1,42 @@
+.landing-page-nav-bar {
+    height: 175px;
+    width: calc(100% - 40px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    color: black;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.landing-logo-image {
+    height: 100%;
+}
+
+.landing-page-btn {
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-style: none;
+    border-width: 0.5px;
+    width: 170px;
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.6);
+    font-family: "Iansui", cursive;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: black;
+}
+
+.landing-page-btn:focus {
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,26 @@
+.home-page-navbar {
+    height: 150px;
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-page-navbar img {
+    height: 100px;
+}
+
+.home-page-navbar ul {
+    color: black;
+    display: flex;
+}
+
+.home-page-navbar ul li {
+    list-style-type: none;
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    cursor: pointer;
+}
